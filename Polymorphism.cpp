@@ -10,10 +10,10 @@ class Animal {
 };
 
 // Derived class
-class Pig : public Animal {
+class Sheep : public Animal {
   public:
     void animalSound() {
-    cout << "The pig says: wee wee \n" ;
+    cout << "The sheep says: mee mee \n" ;
    }
 };
 
@@ -27,11 +27,11 @@ class Dog : public Animal {
 
 int main() {
   Animal myAnimal;
-  Pig myPig;
+  Sheep mySheep;
   Dog myDog;
 
   myAnimal.animalSound();
-  myPig.animalSound();
+  mySheep.animalSound();
   myDog.animalSound();
   return 0;
 }
